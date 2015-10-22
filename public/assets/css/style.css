@@ -1,0 +1,75 @@
+/* 
+    Created on : Oct 22, 2015, 5:34:50 AM
+    Author     : Dwikky Maradhiza
+*/
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto','sans-serif';
+}
+
+#map {
+    height: 100%;
+}
+
+.floating-panel {
+    width:100%;
+    position: absolute;
+    z-index: 5;
+    text-align: center;
+    line-height: 40px;
+}
+
+.menu {
+    bottom: 0;
+    background-color: #FFF;
+}
+    .menu #location{
+        width: 100%;
+        height: 100%;
+        border: none;
+    }
+    .menu .search,.menu .history{
+        background: #55ACEE;
+        color: #fff;
+    }
+    .menu button{
+        height: 100%;
+        background: #55ACEE;
+        color: #fff;
+        border: none;
+        width: 100%;
+    }
+
+.search-title {
+    text-transform: uppercase;
+    font-size: 28px;
+    font-weight: bold;
+    color: #55ACEE;
+    top: 10px;
+    text-shadow: 1px 1px 0 #FFF, 1px -1px 0 #FFF, -1px 1px 0 #FFF, -1px -1px 0 #FFF;
+}
+
+/* loader */
+#loading {
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    position: fixed;
+    display: block;
+    background: rgba(0,0,0,0.5);
+    z-index: 99;
+    text-align: center;
+}
+
+#loading-image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -31px;
+    margin-left: -31px;
+    z-index: 100;
+}
