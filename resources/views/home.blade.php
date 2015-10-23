@@ -30,8 +30,9 @@
         </div>
         
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAQTU3yk1irQuKFQ9RYEPyC0C41TytKlkE&callback=initMap"
+        <script src="https://maps.googleapis.com/maps/api/js?sensor=true&v=3&callback=initMap"
         async defer></script>
+        <script>var apiUrl = "<?php echo url() ?>/index.php/search/tweets"; </script>
         {!! HTML::script('assets/bootstrap/js/bootstrap.min.js') !!} 
         {!! HTML::script('assets/js/script.js') !!} 
     </body>

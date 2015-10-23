@@ -25,7 +25,7 @@ $("#search").click(function () {
     geocoder.geocode({'address': locName}, function (results, status) {
         if (status == google.maps.GeocoderStatus.OK) {
             $.ajax({
-                url: 'http://localhost/map/public/index.php/search/tweets',
+                url: apiUrl,
                 data: {lat: results[0].geometry.location.lat(), lng: results[0].geometry.location.lng(), words: locName},
                 dataType: 'json',
                 type: 'GET',
