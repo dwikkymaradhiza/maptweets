@@ -18,6 +18,10 @@ var cityLatLon = {lat: 52.511, lng: 13.447};
 $("#search").click(function () {
     var locName = document.getElementById('location').value;
     var geocoder = new google.maps.Geocoder();
+    if(locName == ""){
+        alert("Please input city name.");
+        return false;
+    }
     geocoder.geocode({'address': locName}, function (results, status) {
         if (status == google.maps.GeocoderStatus.OK) {
             $.ajax({

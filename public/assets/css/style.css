@@ -31,16 +31,25 @@ html, body {
         height: 100%;
         border: none;
     }
+    .menu .search{
+        border-bottom: 1px solid #FFF;
+    }
     .menu .search,.menu .history{
         background: #55ACEE;
         color: #fff;
+        transition: ease-in-out 0.2s;
+    }
+    .menu .search:hover,.menu .history:hover{
+        background: #2C9BEA;
+        transition: ease-in-out 0.2s;
     }
     .menu button{
         height: 100%;
-        background: #55ACEE;
+        width: 100%;
         color: #fff;
         border: none;
-        width: 100%;
+        transition: ease-in-out 0.2s;
+        background: transparent;
     }
 
 .search-title {
@@ -72,4 +81,11 @@ html, body {
     margin-top: -31px;
     margin-left: -31px;
     z-index: 100;
+}
+
+@media screen and (min-width: 767px) {
+    .menu .search{
+        border-right: 1px solid #FFF;
+        border-bottom: none;
+    }
 }

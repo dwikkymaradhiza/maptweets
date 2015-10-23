@@ -17,13 +17,13 @@
         </div>
         <div class="floating-panel container-fluid menu">
             <div class="row">
-                <div class="col-md-6 col-sm-6">
+                <div class="col-md-6 col-sm-4 col-xs-12">
                     <input type="text" id="location" placeholder="City name" />
                 </div>
-                <div class="col-md-3 col-sm-6 search">
+                <div class="col-md-3 col-sm-4 col-xs-12 search">
                     <button id="search">SEARCH</button>
                 </div>
-                <div class="col-md-3 col-sm-6 history">
+                <div class="col-md-3 col-sm-4 col-xs-12 history">
                     <button id="history">HISTORY</button>
                 </div>
             </div>

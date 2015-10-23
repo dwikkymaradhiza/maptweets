@@ -20,12 +20,12 @@ class ApiController extends Controller
             $response = ['stat' => true ,'message' => null, 'tweets' => null];
             $input=Input::all();
             
-//            if(empty($input) || (is_array($input) && (!array_key_exists('lat', $input) || !array_key_exists('lng', $input) || !array_key_exists('words', $input))) ){
-//                $response['message'] = 'Missing parameters!';
-//                $response['stat'] = false;
-//                
-//                return json_encode($response);
-//            }
+            if(empty($input) || (is_array($input) && (!array_key_exists('lat', $input) || !array_key_exists('lng', $input) || !array_key_exists('words', $input))) ){
+                $response['message'] = 'Missing parameters!';
+                $response['stat'] = false;
+                
+                return json_encode($response);
+            }
             
             $response['tweets'] = $this->getResponse($input);
             
@@ -45,7 +45,7 @@ class ApiController extends Controller
         try {
             $tweets = [];
             $jsonString = file_get_contents("http://localhost/map/public/sample.json");
-//            $jsonString = Twitter::getSearch(array('q' => $input['words'], 'geocode' => "{$input['lat']},{$input['lng']},50km" , 'count' => 10, 'format' => 'json'));
+//            $jsonString = Twitter::getSearch(array('q' => $input['words'], 'geocode' => "{$input['lat']},{$input['lng']},50km" , 'count' => 100, 'format' => 'json'));
             $apiResponse = json_decode($jsonString);
             
             foreach($apiResponse->statuses as $tweetData) {
