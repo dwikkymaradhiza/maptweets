@@ -11,9 +11,9 @@
 |
 */
 
-Route::get('/', function () {
-    return view('home');
-});
+Route::get('/', [
+    'uses' => 'HistoryController@index'
+]);
 
 Route::get('search/tweets', [
     'as' => 'search',

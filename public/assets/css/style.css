@@ -26,32 +26,31 @@ html, body {
     bottom: 0;
     background-color: #FFF;
 }
-    .menu #location{
-        width: 100%;
-        height: 100%;
-        border: none;
-    }
-    .menu .search{
-        border-bottom: 1px solid #FFF;
-    }
-    .menu .search,.menu .history{
-        background: #55ACEE;
-        color: #fff;
-        transition: ease-in-out 0.2s;
-    }
-    .menu .search:hover,.menu .history:hover{
-        background: #2C9BEA;
-        transition: ease-in-out 0.2s;
-    }
-    .menu button{
-        height: 100%;
-        width: 100%;
-        color: #fff;
-        border: none;
-        transition: ease-in-out 0.2s;
-        background: transparent;
-    }
-
+.menu #location{
+    width: 100%;
+    height: 40px;
+    border: none;
+}
+.menu .search{
+    border-right: 1px solid #FFF;
+}
+.menu .search,.menu .history{
+    background: #55ACEE;
+    color: #fff;
+    transition: ease-in-out 0.2s;
+}
+.menu .search:hover,.menu .history:hover{
+    background: #2C9BEA;
+    transition: ease-in-out 0.2s;
+}
+.menu button{
+    height: 100%;
+    width: 100%;
+    color: #fff;
+    border: none;
+    transition: ease-in-out 0.2s;
+    background: transparent;
+}
 .search-title {
     text-transform: uppercase;
     font-size: 28px;
@@ -69,7 +68,7 @@ html, body {
     left: 0px;
     position: fixed;
     display: block;
-    background: rgba(0,0,0,0.5);
+    background: rgba(255,255,255,0.5);
     z-index: 99;
     text-align: center;
 }
@@ -83,9 +82,12 @@ html, body {
     z-index: 100;
 }
 
-@media screen and (min-width: 767px) {
+@media screen and (max-width: 767px) {
     .menu .search{
-        border-right: 1px solid #FFF;
-        border-bottom: none;
+        border-bottom: 1px solid #FFF;
+        border-right: none;
+    }
+    .search-title {
+        font-size: 20px;
     }
 }

@@ -2,11 +2,11 @@
  *  Author : Dwikky Maradhiza
  */
 
-(function ($) {
+$(function () {
     $(window).load(function () {
         $('#loading').hide();
     });
-})(jQuery);
+});
 
 var map;
 var infoWindows;
@@ -15,10 +15,66 @@ var markers = [];
 var tweetsLatLon = {};
 var cityLatLon = {lat: 52.511, lng: 13.447};
 
-$("#search").click(function () {
+var menuRight = document.getElementById('cbp-spmenu-history'),
+        showRight = document.getElementById('showRight'),
+        hideRight = document.getElementById('hideRight'),
+        searchButton = document.getElementById('search'),
+        body = document.body;
+
+showRight.onclick = function () {
+    classie.toggle(this, 'active');
+    classie.toggle(menuRight, 'cbp-spmenu-open');
+};
+
+hideRight.onclick = function () {
+    classie.toggle(this, 'active');
+    classie.toggle(menuRight, 'cbp-spmenu-open');
+};
+
+var searchHistory = function () {
+    $('.location-history').off();
+    $('.location-history').on('click', function () {
+        classie.toggle(this, 'active');
+        classie.toggle(menuRight, 'cbp-spmenu-open');
+
+        var cityName = $(this).html();
+
+        $("#location").val(cityName);
+        $("#search").trigger('click');
+    });
+}
+
+var addNewHistory = function(locName) {
+    var isNew = true;
+    var el = document.createElement('a');
+    el.href = '#';
+    el.className = 'location-history';
+    el.textContent = locName.toUpperCase();
+    
+    $('.location-history').each(function() {
+        if($(this).html() == locName.toUpperCase()){
+            isNew = false;
+        }
+    });
+    
+    if(isNew) {
+        var afterDiv = document.getElementById('hideRight').nextSibling;
+        if (afterDiv === null) {
+            document.getElementById('cbp-spmenu-history').appendChild(el);
+        } else {
+            document.getElementById('cbp-spmenu-history').insertBefore(el, afterDiv);
+        }
+        
+        searchHistory();
+    }
+}
+
+searchHistory();
+
+$("#search").on('click', function () {
     var locName = document.getElementById('location').value;
     var geocoder = new google.maps.Geocoder();
-    if(locName == ""){
+    if (locName == "") {
         alert("Please input city name.");
         return false;
     }
@@ -29,7 +85,7 @@ $("#search").click(function () {
                 data: {lat: results[0].geometry.location.lat(), lng: results[0].geometry.location.lng(), words: locName},
                 dataType: 'json',
                 type: 'GET',
-                beforeSend: function(){
+                beforeSend: function () {
                     $("#loading").show();
                 },
                 error: function (e) {
@@ -38,7 +94,7 @@ $("#search").click(function () {
                 },
                 success: function (e) {
                     if (!e.stat) {
-                        alert('Sorry, we can not find '+ locName +' city.');
+                        alert('Sorry, we can not find ' + locName + ' city.');
                         ;
                     }
 
@@ -50,13 +106,16 @@ $("#search").click(function () {
 
                     $(".search-title").text("Tweets about " + locName);
                     drop(tweetsLatLon);
+
+                    //add new history element
+                    addNewHistory(locName);
                 },
-                complete: function(){
+                complete: function () {
                     $("#loading").hide();
                 }
             });
         } else {
-            alert('Sorry, we can not find '+ locName +' city.');
+            alert('Sorry, we can not find ' + locName + ' city.');
         }
     });
 });

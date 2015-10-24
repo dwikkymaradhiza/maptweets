@@ -14,7 +14,9 @@ class CreateHistoriesTable extends Migration
     {
         Schema::create('histories', function (Blueprint $table) {
             $table->increments('id');
-            $table->string('session');
+            $table->string('session_id');
+            $table->text('data');
+            $table->string('city');
             $table->timestamps();
         });
     }
