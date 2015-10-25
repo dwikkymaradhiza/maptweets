@@ -95,7 +95,8 @@ $("#search").on('click', function () {
                 success: function (e) {
                     if (!e.stat) {
                         alert('Sorry, we can not find ' + locName + ' city.');
-                        ;
+                        
+                        return false;
                     }
 
                     tweetsLatLon = e.tweets;

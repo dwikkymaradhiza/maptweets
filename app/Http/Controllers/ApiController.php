@@ -59,7 +59,7 @@ class ApiController extends HistoryController
             if(!$tweets) {
                 $tweets = [];
 //                $jsonString = file_get_contents("http://localhost/map/public/sample.json");
-                $jsonString = Twitter::getSearch(array('q' => $input['words'], 'geocode' => "{$input['lat']},{$input['lng']},".Config::get('constants.RADIUS') , 'count' => 10, 'format' => 'json', 'result_type' => 'recent'));
+                $jsonString = Twitter::getSearch(array('q' => $input['words'], 'geocode' => "{$input['lat']},{$input['lng']},".Config::get('constants.RADIUS') , 'count' => 10, 'result_type' => 'recent', 'format' => 'json'));
                 $apiResponse = json_decode($jsonString);
 
                 foreach($apiResponse->statuses as $tweetData) {

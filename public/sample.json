@@ -5,11 +5,11 @@
                 "iso_language_code": "in",
                 "result_type": "recent"
             },
-            "created_at": "Tue Oct 20 07:02:42 +0000 2015",
-            "id": 656364904195035100,
-            "id_str": "656364904195035136",
-            "text": "Hallo yang di Jakarta 👋👋👋 (with Yusi at Prau Mt. 2565 Mdpl) [pic] — https://t.co/k0GlBfN8zR",
-            "source": "<a href=\"https: //path.com/\" rel=\"nofollow\">Path</a>",
+            "created_at": "Sat Oct 24 19:00:31 +0000 2015",
+            "id": 657995100073553900,
+            "id_str": "657995100073553920",
+            "text": "Edisi Peninggilan Utara @ Peninggilan Ciledug-tangerang https://t.co/Piib59J9HY",
+            "source": "<a href=\"http://instagram.com\" rel=\"nofollow\">Instagram</a>",
             "truncated": false,
             "in_reply_to_status_id": null,
             "in_reply_to_status_id_str": null,
@@ -17,12 +17,12 @@
             "in_reply_to_user_id_str": null,
             "in_reply_to_screen_name": null,
             "user": {
-                "id": 588257469,
-                "id_str": "588257469",
-                "name": "Andreas M. Sihombing",
-                "screen_name": "andreasmanodo",
-                "location": "Indonesia",
-                "description": "| Mat 21:22 | #SINGUPFORTHECHAMPIONS # GGMU |",
+                "id": 721518865,
+                "id_str": "721518865",
+                "name": "BOLANK14612",
+                "screen_name": "dediheryyanto",
+                "location": "jakarta",
+                "description": "Remember Me and I'll Always Remember You Too......",
                 "url": null,
                 "entities": {
                     "description": {
@@ -30,31 +30,30 @@
                     }
                 },
                 "protected": false,
-                "followers_count": 565,
-                "friends_count": 569,
+                "followers_count": 77,
+                "friends_count": 106,
                 "listed_count": 0,
-                "created_at": "Wed May 23 10:16:38 +0000 2012",
-                "favourites_count": 110,
+                "created_at": "Sat Jul 28 04:53:53 +0000 2012",
+                "favourites_count": 0,
                 "utc_offset": 25200,
-                "time_zone": "Bangkok",
+                "time_zone": "Jakarta",
                 "geo_enabled": true,
                 "verified": false,
-                "statuses_count": 13866,
-                "lang": "en",
+                "statuses_count": 993,
+                "lang": "id",
                 "contributors_enabled": false,
                 "is_translator": false,
                 "is_translation_enabled": false,
-                "profile_background_color": "ACDED6",
-                "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/819852744/46ec80fb69e9d0e13f47807f6b8e835f.jpeg",
-                "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/819852744/46ec80fb69e9d0e13f47807f6b8e835f.jpeg",
+                "profile_background_color": "EDECE9",
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme3/bg.gif",
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme3/bg.gif",
                 "profile_background_tile": false,
-                "profile_image_url": "http://pbs.twimg.com/profile_images/491973831909597184/8Z7g0k5V_normal.jpeg",
-                "profile_image_url_https": "https://pbs.twimg.com/profile_images/491973831909597184/8Z7g0k5V_normal.jpeg",
-                "profile_banner_url": "https://pbs.twimg.com/profile_banners/588257469/1410747796",
-                "profile_link_color": "038543",
-                "profile_sidebar_border_color": "FFFFFF",
-                "profile_sidebar_fill_color": "DDEEF6",
-                "profile_text_color": "333333",
+                "profile_image_url": "http://pbs.twimg.com/profile_images/435378948810088448/BQbjjZm1_normal.jpeg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/435378948810088448/BQbjjZm1_normal.jpeg",
+                "profile_link_color": "088253",
+                "profile_sidebar_border_color": "D3D2CF",
+                "profile_sidebar_fill_color": "E3E2DE",
+                "profile_text_color": "634047",
                 "profile_use_background_image": true,
                 "has_extended_profile": false,
                 "default_profile": false,
@@ -66,23 +65,23 @@
             "geo": {
                 "type": "Point",
                 "coordinates": [
-                    -7.35822,
-                    109.90369
+                    -6.24038197,
+                    106.71689607
                 ]
             },
             "coordinates": {
                 "type": "Point",
                 "coordinates": [
-                    109.90369,
-                    -7.35822
+                    106.71689607,
+                    -6.24038197
                 ]
             },
             "place": {
-                "id": "5afa4d5aa26035f3",
-                "url": "https://api.twitter.com/1.1/geo/id/5afa4d5aa26035f3.json",
+                "id": "7c7e93f29191841c",
+                "url": "https://api.twitter.com/1.1/geo/id/7c7e93f29191841c.json",
                 "place_type": "city",
-                "name": "Wonosobo",
-                "full_name": "Wonosobo, Central Java",
+                "name": "Ciledug",
+                "full_name": "Ciledug, Banten",
                 "country_code": "ID",
                 "country": "Indonesia",
                 "contained_within": [],
@@ -91,20 +90,20 @@
                     "coordinates": [
                         [
                             [
-                                109.887198,
-                                -7.395319
+                                106.690722,
+                                -6.249047
                             ],
                             [
-                                109.981071,
-                                -7.395319
+                                106.751554,
+                                -6.249047
                             ],
                             [
-                                109.981071,
-                                -7.327865
+                                106.751554,
+                                -6.190989
                             ],
                             [
-                                109.887198,
-                                -7.327865
+                                106.690722,
+                                -6.190989
                             ]
                         ]
                     ]
@@ -121,148 +120,12 @@
                 "user_mentions": [],
                 "urls": [
                     {
-                        "url": "https://t.co/k0GlBfN8zR",
-                        "expanded_url": "https://path.com/p/1fkgjt",
-                        "display_url": "path.com/p/1fkgjt",
+                        "url": "https://t.co/Piib59J9HY",
+                        "expanded_url": "https://instagram.com/p/9OzYuBFmrO/",
+                        "display_url": "instagram.com/p/9OzYuBFmrO/",
                         "indices": [
-                            68,
-                            91
-                        ]
-                    }
-                ]
-            },
-            "favorited": false,
-            "retweeted": false,
-            "possibly_sensitive": false,
-            "lang": "in"
-        },
-        {
-            "metadata": {
-                "iso_language_code": "in",
-                "result_type": "recent"
-            },
-            "created_at": "Tue Oct 20 07:02:42 +0000 2015",
-            "id": 656364904195035100,
-            "id_str": "656364904195035136",
-            "text": "Hallo dunia",
-            "source": "<a href=\"https: //path.com/\" rel=\"nofollow\">Path</a>",
-            "truncated": false,
-            "in_reply_to_status_id": null,
-            "in_reply_to_status_id_str": null,
-            "in_reply_to_user_id": null,
-            "in_reply_to_user_id_str": null,
-            "in_reply_to_screen_name": null,
-            "user": {
-                "id": 588257469,
-                "id_str": "588257469",
-                "name": "Andreas M. Sihombing",
-                "screen_name": "andreasmanodo",
-                "location": "Indonesia",
-                "description": "| Mat 21:22 | #SINGUPFORTHECHAMPIONS # GGMU |",
-                "url": null,
-                "entities": {
-                    "description": {
-                        "urls": []
-                    }
-                },
-                "protected": false,
-                "followers_count": 565,
-                "friends_count": 569,
-                "listed_count": 0,
-                "created_at": "Wed May 23 10:16:38 +0000 2012",
-                "favourites_count": 110,
-                "utc_offset": 25200,
-                "time_zone": "Bangkok",
-                "geo_enabled": true,
-                "verified": false,
-                "statuses_count": 13866,
-                "lang": "en",
-                "contributors_enabled": false,
-                "is_translator": false,
-                "is_translation_enabled": false,
-                "profile_background_color": "ACDED6",
-                "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/819852744/46ec80fb69e9d0e13f47807f6b8e835f.jpeg",
-                "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/819852744/46ec80fb69e9d0e13f47807f6b8e835f.jpeg",
-                "profile_background_tile": false,
-                "profile_image_url": "http://pbs.twimg.com/profile_images/491973831909597184/8Z7g0k5V_normal.jpeg",
-                "profile_image_url_https": "https://pbs.twimg.com/profile_images/491973831909597184/8Z7g0k5V_normal.jpeg",
-                "profile_banner_url": "https://pbs.twimg.com/profile_banners/588257469/1410747796",
-                "profile_link_color": "038543",
-                "profile_sidebar_border_color": "FFFFFF",
-                "profile_sidebar_fill_color": "DDEEF6",
-                "profile_text_color": "333333",
-                "profile_use_background_image": true,
-                "has_extended_profile": false,
-                "default_profile": false,
-                "default_profile_image": false,
-                "following": false,
-                "follow_request_sent": false,
-                "notifications": false
-            },
-            "geo": {
-                "type": "Point",
-                "coordinates": [
-                    -7.36822,
-                    109.91369
-                ]
-            },
-            "coordinates": {
-                "type": "Point",
-                "coordinates": [
-                    109.90369,
-                    -7.35822
-                ]
-            },
-            "place": {
-                "id": "5afa4d5aa26035f3",
-                "url": "https://api.twitter.com/1.1/geo/id/5afa4d5aa26035f3.json",
-                "place_type": "city",
-                "name": "Wonosobo",
-                "full_name": "Wonosobo, Central Java",
-                "country_code": "ID",
-                "country": "Indonesia",
-                "contained_within": [],
-                "bounding_box": {
-                    "type": "Polygon",
-                    "coordinates": [
-                        [
-                            [
-                                109.887198,
-                                -7.395319
-                            ],
-                            [
-                                109.981071,
-                                -7.395319
-                            ],
-                            [
-                                109.981071,
-                                -7.327865
-                            ],
-                            [
-                                109.887198,
-                                -7.327865
-                            ]
-                        ]
-                    ]
-                },
-                "attributes": {}
-            },
-            "contributors": null,
-            "is_quote_status": false,
-            "retweet_count": 0,
-            "favorite_count": 0,
-            "entities": {
-                "hashtags": [],
-                "symbols": [],
-                "user_mentions": [],
-                "urls": [
-                    {
-                        "url": "https://t.co/k0GlBfN8zR",
-                        "expanded_url": "https://path.com/p/1fkgjt",
-                        "display_url": "path.com/p/1fkgjt",
-                        "indices": [
-                            68,
-                            91
+                            56,
+                            79
                         ]
                     }
                 ]
@@ -272,5 +135,16 @@
             "possibly_sensitive": false,
             "lang": "in"
         }
-    ]
+    ],
+    "search_metadata": {
+        "completed_in": 0.013,
+        "max_id": 657995100073553900,
+        "max_id_str": "657995100073553920",
+        "next_results": "?max_id=657995100073553919&q=tangerang&geocode=-6.2023936%2C106.65270989999999%2C50km&count=1&include_entities=1&result_type=recent",
+        "query": "tangerang",
+        "refresh_url": "?since_id=657995100073553920&q=tangerang&geocode=-6.2023936%2C106.65270989999999%2C50km&result_type=recent&include_entities=1",
+        "count": 1,
+        "since_id": 0,
+        "since_id_str": "0"
+    }
 }
