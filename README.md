@@ -16,4 +16,9 @@ This mini-project is used to search city within tweets that around the city that
 5. From terminal, in url root directory of the project, "run php artisan key:generate" to generate key.
 6. From terminal, in url root directory of the project, "run php artisan migrate" to generate database.
 
+# Configuration
+
+1. You can change the twitter radius coordinate value in "config/constants.php" (RADIUS).
+2. You can change time expired for cache value in "config/constants.php" (EXPIRED).
+
 
